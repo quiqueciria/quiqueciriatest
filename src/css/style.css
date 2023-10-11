@@ -15,4 +15,35 @@
     padding-bottom: 3px;
     border-bottom: 2px solid #eb0ef3;
   }
+  /* Text styles*/
+  .title {
+    font-family: "triumpblack", sans-serif;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+  }
+  .title-2 {
+    font-family: "Chivo", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .title-3 {
+    font-family: "Chivo", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .title-4 {
+    font-family: "Chivo", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .paragraph {
+    font-family: "Chivo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
