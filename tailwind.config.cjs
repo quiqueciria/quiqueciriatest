@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {},
+      fontFamily: {
+        sans: ["Chivo"],
+      },
     },
   },
   plugins: [],
