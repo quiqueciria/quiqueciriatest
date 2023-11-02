@@ -1,0 +1,75 @@
+---
+import Hero from "../components/Hero.astro"
+import List from "../components/List.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quique Ciria</title>
+    <meta name="description" content="tags, tags" />
+    <link rel="stylesheet" href="src/css/font.css" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:100,200,300,400,700&display=swap" rel="stylesheet">
+</head>
+
+  <body class="mx-10 my-10 max-w-3xl font-sans text-slate-800 bg-slate-300">
+    <div class="">
+   <a href="http://localhost:4321"><img src="src/imgs/arrow-left.svg"></a>
+    </div>
+    <div class="font-['chivo'] text-5xl mt-10">
+        Notifications Inbox
+    </div>
+    <div class="py-10 text-3xl font-extralight leading-tight">
+        La app Mi Movistar (Android/iOS/Web) es la aplicación que usan los clientes de la operadora de telecomunicaciones Movistar <strong>en España</strong>. Esta misma aplicación es brandeada para usar en otras marcas del grupo.
+    </div>
+    <div class="py-4">
+      <img class="width: 1200px" src="src/imgs/appMiMovistar.png">
+    </div>
+    <div class="text-3xl pt-8">Comprender el problema</div>
+    <div class="text-xl pt-4 font-light">
+      Existía una <strong>necesidad de comunicarse con los clientes</strong> dentro de la app de Mi Movistar de una forma <strong>ágil y lo menos intrusiva</strong> posible. El objetivo era, por tanto, poder enviar de forma breve tanto notificaciones, como avisos, promociones o información relevante para el cliente. Además, estas notificaciones se deberían de poder ir almacenando en un lugar dentro de la app, como por ejemplo un buzón, para poder ser consumidas más tarde.
+  </div>
+  <div class="text-xl pt-4 font-light">
+    Principalmente se tomaron como referencia los procesos similares que ya existían y se usaban en otras aplicaciones para enviar notificaciones dentro de sus apps y almacenarlas, ya que era un sistema conocido por el usuario e identificado de forma natural.
+</div>
+<div class="text-3xl pt-8">Objetivos</div>
+<div class="text-xl pt-4 font-light">
+  Como primera versión de la feature se definieron una serie de use cases, pensando en tener la funcionalidad disponible cuanto antes. Y por otro lado, en el mismo proyecto se definió una segunda parte de mejoras futuras y modificaciones teniendo en cuenta lo ya aprendido por la experiencia y las métricas de la primera fase.
+</div>
+<div class="text-3xl pt-8">Use cases</div>
+<div class="text-xl pt-4 ml-8 font-light">
+  <ul class="list-disc">
+    <li class="mb-3">El usuario debe de <strong>recibir algún tipo de notificación</strong> que permita la interacción directa cuando la app está cerrada (*push notification*).</li>
+    <li class="mb-3">
+      La app cuenta con un lugar <strong>donde se almacenan estas notificaciones</strong> y pueden ser consultadas posteriormente (buzón).
+    </li>
+    <li class="mb-3"><strong>El usuario puede percibir</strong> por medio de un contador/icono/botón <strong>la cantidad de mensajes no leidos</strong> desde una parte de la app relevante y con sentido dentro la arquitectura de información.</li>
+    <li class="mb-3">El usuario debe saber que notificaciones <strong>están recibidas, no leídas aún y cuales sí</strong>.</li>
+    <li><strong>El usuario puede interactuar en cualquier momento de la notificación</strong> para ir al lugar donde ocurre o se propone la acción; así como en caso de ser informativa permitir un destino.</li>
+  </ul>
+</div>
+<div class="pt-4">
+  <img src="src/imgs/appHQstacomp.png">
+</div>
+<div class="text-xl pt-4 font-light">
+  Además del handoff de la feature para desarrollo por medio de Zeplin. Hubo que añadir dos componentes nuevos dentro del sistema de diseño Mística. Para ello, además de reuniones y conversaciones sobre su aplicación, es necesario documentar y definir las design specifications de cada componente que servirán, tanto para el equipo de desarrollo como para el equipo de diseño a la hora de hacer una correcta aplicación de los componentes
+</div>
+<div class="text-3xl pt-8">Herramientas usadas</div>
+<div class="text-xl pt-4 ml-8 font-light">
+  <ul class="list-disc">
+    <li class="mb-3">Sketch</li>
+    <li class="mb-3">Zeplin</li>
+    <li class="mb-3">Jira</li>
+    <li class="mb-3">Google docs</li>
+    <li class="mb-3">Gitbook</li>
+    <li class="mb-3">Slack</li>
+  </ul>
+</div>
+<div class="pt-8 mt-10 border-t border-slate-400">
+  Quique Ciria. 2021 - info@quiqueciria.es
+</div>
+  </body>
+</html>
